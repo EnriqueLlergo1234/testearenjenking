@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Functional Suite">
+
+    <listeners>
+        <listener class-name="testcase.Listeners"></listener>
+    </listeners>
+
+    <test name="Login Test 1">
+        <classes>
+            <class name="testcase.assertion_y_reporting"/>
+        </classes>
+    </test>
+<!--
+    <test name="Login Test 2">
+        <classes>
+            <class name="testcase.softassertions_y_multiple_failures"/>
+        </classes>
+    </test>
+
+    <test name="Login Test 3">
+        <classes>
+            <class name="testcase.TestCase1"/>
+        </classes>
+    </test>
+
+    <test name="Login Test 4">
+        <classes>
+            <class name="testcase.testDependencies"/>
+        </classes>
+    </test>
+    -->
+
+</suite>

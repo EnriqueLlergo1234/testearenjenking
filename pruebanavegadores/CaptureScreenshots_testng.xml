@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG" parallel="none">
+    
+    <listeners>
+        <listener class-name="testcase.CaptureScreenshots_TestListener"></listener>
+    </listeners>
+    
+    <test name="Test">
+        <classes>
+            <class name="testcase.CaptureScreenshots_LoginTest"/>
+        </classes>
+    </test>
+</suite>
